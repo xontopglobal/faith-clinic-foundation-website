@@ -187,3 +187,35 @@ footer p { color:#aaa; font-size:13px; }
 .nav a.active:not(.nav-donate) { color:#a47700; font-weight:800; }
 .gallery-subhead { color:var(--muted); margin-top:18px; }
 .donation-page-options { margin-top:35px; }
+.donation-page-options {
+  margin-top: 35px;
+}
+
+/* Social Media Links */
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.social-links a {
+  display: inline-block;
+  padding: 9px 16px;
+  border-radius: 8px;
+  background: var(--ink);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.social-links a:hover {
+  transform: translateY(-2px);
+  opacity: 0.85;
+}
+
+.footer-links h3 {
+  margin-bottom: 8px;
+}
