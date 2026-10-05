@@ -1,0 +1,3 @@
+GitHub: create a repository, upload all files/folders, then connect the repository to Netlify.
+Netlify: Build command = leave blank; Publish directory = .
+The site is static and does not require npm install or a framework build.
