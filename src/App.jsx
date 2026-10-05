@@ -10,6 +10,8 @@ import GetInvolved from "./pages/GetInvolved";
 import Donate from "./pages/Donate";
 import Contact from "./pages/Contact";
 import Team from "./pages/Team";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import DataDeletion from "./pages/DataDeletion";
 import WhatWeDo from "./pages/WhatWeDo";
 import OurWork from "./pages/OurWork";
 import Story from "./pages/Story";
@@ -22,6 +24,8 @@ export default function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/data-deletion" element={<DataDeletion />} />
           <Route path="/about" element={<About />} />
           <Route path="/our-story" element={<Story />} />
           <Route path="/transparency-governance" element={<Transparency />} />
